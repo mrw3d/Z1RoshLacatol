@@ -44,7 +44,7 @@ header .logo {
     opacity: 0;
     text-decoration: none;
     font-weight: 800;
-    animation: slide_left 0.5s linear forwards;
+    animation: slide_left 0.1s linear forwards;
     animation-delay: 0.1s;
 }
 
@@ -79,8 +79,8 @@ header ul li a {
     text-decoration: none;
     user-select: none;
     opacity: 0;
-    animation: slide_top 0.5s linear forwards;
-    animation-delay: calc(0.5s * var(--i));
+    animation: slide_top 0.1s linear forwards;
+    animation-delay: calc(0.1s * var(--i));
 }
 
 @keyframes slide_top {
@@ -117,8 +117,8 @@ header ul li a:hover {
     line-height: 1.2em;
     font-weight: 700;
     opacity: 0;
-    animation: slide_right 0.5s linear forwards;
-    animation-delay: 2.4s;
+    animation: slide_right 0.1s linear forwards;
+    animation-delay: 0.1s;
 }
 
 @keyframes slide_right {
@@ -136,8 +136,8 @@ header ul li a:hover {
     font-size: 1.2em;
     color: #333;
     opacity: 0;
-    animation: slide_left 0.5s linear forwards;
-    animation-delay: 2.6s;
+    animation: slide_left 0.1s linear forwards;
+    animation-delay: 0.1s;
 }
 
 @keyframes slide_down {
@@ -163,8 +163,8 @@ header ul li a:hover {
     letter-spacing: 1px;
     text-decoration: none;
     opacity: 0;
-    animation: slide_down 0.5s linear forwards;
-    animation-delay: 3s;
+    animation: slide_down 0.1s linear forwards;
+    animation-delay: 0.1s;
 }
 
 .sci {
@@ -174,8 +174,8 @@ header ul li a:hover {
     justify-content: center;
     align-items: center;
     opacity: 0;
-    animation: slide_right 0.5s linear forwards;
-    animation-delay: 4s;
+    animation: slide_right 0.1s linear forwards;
+    animation-delay: 0.1s;
 }
 
 .sci li {
@@ -213,8 +213,8 @@ header ul li a:hover {
     height: 100%;
     width: 100%;
     opacity: 0;
-    animation: slide_right_bg 2s linear forwards;
-    animation-delay: 0.2s;
+    animation: slide_right_bg 0.1s linear forwards;
+    animation-delay: 0.1s;
 }
 
 @keyframes slide_right_bg {
