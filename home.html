@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Z1 | Rosh Lacatol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <img src="bg.jpg" class="mosque">
+        <header>
+            <a href="#" class="logo">RoshLacatol</a>
+            <div class="toggle"></div>
+            <ul class="navigation">
+                <li><a href="#" style="--i:1;" class="active"> Home </a></li>
+                <li><a href="#" style="--i:2;"> Facebook </a></li>
+                <li><a href="#" style="--i:3;"> Youtube </a></li>
+                <li><a href="#" style="--i:4;"> Music </a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <span>
+                    <h2>Welcome to Z1</h2>
+                    <p> Updating...</p>
+                    <a href="#">Read More</a>
+                </span>
+            </div>
+        </div>
+        <!-- 
+        <div class="BoxIn4">
+            <span>
+                <div class="imgavt">
+                    <img src="avt.jpg">
+                </div>
+                <h3>Rosh Lacatol</h3>
+            </span>
+        </div> -->
+
+        <ul class="sci">
+            <li>
+                <a href="#"><img src="facebook.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="Phone.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="youtube.png"></a>
+            </li>
+        </ul>
+    </section>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function() {
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
