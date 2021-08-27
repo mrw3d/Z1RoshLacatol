@@ -208,9 +208,10 @@ header ul li a:hover {
 
 .mosque {
     position: absolute;
-    bottom: 0;
-    right: 0;
-    max-width: 7000px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
     opacity: 0;
     animation: slide_right_bg 2s linear forwards;
     animation-delay: 0.2s;
@@ -218,11 +219,11 @@ header ul li a:hover {
 
 @keyframes slide_right_bg {
     0% {
-        transform: translateY(100px);
+        transform: translateX(-100px);
         opacity: 0;
     }
     100% {
-        transform: translateY(0px);
+        transform: translateX(0px);
         opacity: 0.8;
     }
 }
@@ -265,7 +266,7 @@ header ul li a:hover {
         right: 20px;
         width: 40px;
         height: 40px;
-        background: #47acf5 url(./menu.png);
+        background: #47acf5 url(./images/menu.png);
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
@@ -274,7 +275,7 @@ header ul li a:hover {
         border-radius: 2px;
     }
     .toggle.active {
-        background: #47acf5 url(./close.png);
+        background: #47acf5 url(./images/close.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
@@ -290,7 +291,6 @@ header ul li a:hover {
 @media (max-width: 600px) {
     .mosque {
         opacity: 0.2;
-        max-width: 2000px;
     }
 }
 
